@@ -6,10 +6,12 @@ const main = async () => {
   console.log('cwd')
   await $.cd(`${__dirname}/..`)
 
-  console.log('config')
+  console.log('set up git')
   const origin = await getCommit() // must come before makeRepo
   await $.exec('git remote rename origin template')
+  await $.exec('git branch -m template')
 
+  console.log('get config info')
   const name = await ask('project npm name?')
   const author = await ask('your name?', {default: 'Andrew J. Monks <a@monks.co>'})
   const repo = await makeRepo()
