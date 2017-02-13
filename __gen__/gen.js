@@ -20,7 +20,10 @@ const main = async () => {
 
   console.log('write log')
   $.ShellString(JSON.stringify(config, undefined, 2))
-    .to(`__gen__/gen.json`)
+    .to(`.gen.json`)
+
+  console.log('delete tracks')
+  $.rm('-r', __dirname)
 
   console.log('do repalcements')
   const files = gitFiles()
