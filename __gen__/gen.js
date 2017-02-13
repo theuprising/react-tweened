@@ -1,4 +1,4 @@
-import { pascalCase } from 'change-case'
+const { pascalCase } = require('change-case')
 const { makeRepo, ask, replacer, getCommit } = require('gen-util')
 const $ = require('shelljs')
 
