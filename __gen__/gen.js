@@ -1,5 +1,5 @@
 const { pascalCase } = require('change-case')
-const { makeRepo, ask, replacer, getCommit } = require('gen-util')
+const { makeRepo, ask, replacer, getCommit, gitFiles } = require('gen-util')
 const $ = require('shelljs')
 
 const main = async () => {
@@ -21,7 +21,7 @@ const main = async () => {
     .to(`__gen__/gen.json`)
 
   console.log('do repalcements')
-  const files = $.find('.')
+  const files = gitFiles()
   const replace = replacer(files)
   await replace(/__CURRENT_YEAR/, currentYear)
   await replace(/__PACKAGE_NAME/, name)
