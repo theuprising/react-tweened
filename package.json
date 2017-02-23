@@ -23,11 +23,7 @@
     "watch": "webpack --watch --config webpack.config.babel.js"
   },
   "dependencies": {
-    "debug": "^2.6.0",
-    "gen-util": "^1.3.0",
-    "lodash.throttle": "^4.1.1",
-    "ramda": "^0.23.0",
-    "react-gsap-enhancer": "^0.3.0"
+    "debug": "^2.6.0"
   },
   "peerDependencies": {
     "react": ""
