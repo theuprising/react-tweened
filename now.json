@@ -1,3 +1,9 @@
 {
-  "alias": "__PACKAGE_NAME"
+  "alias": "__PACKAGE_NAME",
+  "files": [
+    "src",
+    "pages",
+    "umd",
+    "es"
+  ]
 }
