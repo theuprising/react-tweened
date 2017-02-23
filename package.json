@@ -23,7 +23,9 @@
     "watch": "webpack --watch --config webpack.config.babel.js"
   },
   "dependencies": {
-    "debug": "^2.6.0"
+    "debug": "^2.6.0",
+    "gsap": "^1.19.1",
+    "react-animable": "^1.1.1"
   },
   "peerDependencies": {
     "react": ""

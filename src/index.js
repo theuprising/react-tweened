@@ -1,10 +1,21 @@
-import React from 'react'
+const debug = require('debug')('react-tweened')
 
-const ReactTweened = ({className}) => {
+import React from 'react'
+import Animable from 'react-animable'
+import { TweenMax } from 'gsap'
+
+const ReactTweened = ({id, className, children, state, duration}) => {
+  debug('render', {id, className, children, state, duration})
   return (
-    <article className={className}>
-      <h1>react-tweened</h1>
-    </article>
+    <Animable
+      id={id}
+      className={className}
+      makeTimeline={
+        el => TweenMax.to(el, duration, state)
+      }
+    >
+      {children}
+    </Animable>
   )
 }
 
