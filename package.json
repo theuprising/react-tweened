@@ -9,14 +9,15 @@
     "umd"
   ],
   "scripts": {
-    "build": "yarn build:module && yarn build:umd && yarn build:demo",
+    "build": "npm run build:module && npm run build:umd && npm run build:demo",
     "build:demo": "next build",
     "build:umd": "webpack --config webpack.config.babel.js",
     "build:module": "babel -d es src",
-    "demo": "next",
+    "dev": "next",
+    "now-build": "next build",
     "now-start": "next start",
-    "postpublish": "now demo/ -t $NOW_TOKEN",
-    "pretest": "yarn build",
+    "postpublish": "now -t $NOW_TOKEN; now alias",
+    "pretest": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "ava",
     "watch": "webpack --watch --config webpack.config.babel.js"
