@@ -1,8 +1,0 @@
-{
-  "private": true,
-  "devDependencies": {
-    "change-case": "^3.0.1",
-    "gen-util": "^1.1.2",
-    "shelljs": "^0.7.6"
-  }
-}

@@ -1,12 +1,12 @@
 import React from 'react'
 
-const __COMPONENT_NAME = ({className}) => {
+const ReactTweened = ({className}) => {
   return (
     <article className={className}>
-      <h1>__PACKAGE_NAME</h1>
+      <h1>react-tweened</h1>
     </article>
   )
 }
 
-export default __COMPONENT_NAME
+export default ReactTweened
 

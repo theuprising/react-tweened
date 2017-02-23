@@ -1,4 +1,4 @@
-Copyright __CURRENT_YEAR __AUTHOR_NAME
+Copyright 2017 Andrew J. Monks <a@monks.co>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 

@@ -2,14 +2,14 @@ this is a template for a react component!
 
 run `__gen__/init.sh`, or just delete the `__gen__` directory and manually replace these strings:
 
-- __AUTHOR_NAME
-- __PACKAGE_NAME
-- __COMPONENT_NAME
-- __CURRENT_YEAR
+- Andrew J. Monks <a@monks.co>
+- react-tweened
+- ReactTweened
+- 2017
 
 * * *
 
-# __PACKAGE_NAME
+# react-tweened
 
-try the demo at https://__PACKAGE_NAME.now.sh
+try the demo at https://react-tweened.now.sh
 

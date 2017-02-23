@@ -1,5 +1,5 @@
 {
-  "alias": "__PACKAGE_NAME",
+  "alias": "react-tweened",
   "files": [
     "src",
     "pages",

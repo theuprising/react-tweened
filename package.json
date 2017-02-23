@@ -1,8 +1,8 @@
 {
-  "name": "__PACKAGE_NAME",
+  "name": "react-tweened",
   "version": "0.0.0",
-  "main": "umd/__PACKAGE_NAME.js",
-  "module": "es/__PACKAGE_NAME.js",
+  "main": "umd/react-tweened.js",
+  "module": "es/react-tweened.js",
   "files": [
     "es",
     "lib",
@@ -51,7 +51,7 @@
     "serve": "^3.2.10",
     "webpack": "^2.2.1"
   },
-  "author": "__AUTHOR_NAME",
+  "author": "Andrew J. Monks <a@monks.co>",
   "homepage": "",
   "license": "ISC",
   "keywords": [
