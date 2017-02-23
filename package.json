@@ -16,7 +16,7 @@
     "dev": "next",
     "now-build": "next build",
     "now-start": "next start",
-    "postpublish": "now -t $NOW_TOKEN; now alias",
+    "postpublish": "now -t $NOW_TOKEN; now alias -t $NOW_TOKEN",
     "pretest": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "ava",
