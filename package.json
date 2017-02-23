@@ -1,6 +1,6 @@
 {
   "name": "react-tweened",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "main": "umd/react-tweened.js",
   "module": "es/react-tweened.js",
   "files": [
@@ -62,5 +62,9 @@
     "require": [
       "babel-register"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theuprising/react-tweened.git"
   }
 }
